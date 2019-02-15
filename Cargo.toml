@@ -1,0 +1,15 @@
+[package]
+name = "sa-parser"
+version = "0.1.0"
+authors = ["Jeremy Fitzhardinge <jeremy@goop.org>"]
+edition = "2018"
+
+[[bin]]
+name = "sa-parser"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+clap = "2.32"
+rental = "0.5"
